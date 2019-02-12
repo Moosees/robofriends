@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import CardList from './CardList';
-import SearchBox from './SearchBox';
+import CardList from './Components/CardList';
+import SearchBox from './Components/SearchBox';
+import './App.css';
 import { robots } from './robots'; // Dummy data
 
 class App extends Component {
@@ -19,8 +20,8 @@ class App extends Component {
 		});
 
 		return (
-			<div>
-				<h1>RobotFriends</h1>
+			<div className="app-container">
+				<h1 className="heading-1">RobotFriends</h1>
 				<SearchBox changed={this.searchHandler} />
 				<CardList robots={filteredRobots} />
 			</div>
