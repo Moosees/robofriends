@@ -1,5 +1,6 @@
 .card-container {
+  background-color: #109e99;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }

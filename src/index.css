@@ -13,7 +13,6 @@ html {
 body {
   background: linear-gradient(to left, rgb(37, 61, 124), rgb(2, 138, 138));
   box-sizing: border-box;
-  padding: 2rem;
 }
 
 code {
