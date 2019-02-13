@@ -29,7 +29,7 @@ class App extends Component {
 		} else {
 			return (
 				<div className="app-container">
-					<h1 className="heading-1">RobotFriends</h1>
+					<h1 className="heading-1">RoboFriends</h1>
 					<SearchBox changed={this.searchHandler} />
 					<CardList robots={filteredRobots} />
 				</div>
