@@ -1,8 +1,6 @@
 .card-container {
   align-content: flex-start;
-  background-color: #109e99;
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
   justify-content: center;
 }
